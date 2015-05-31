@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<title>Dynamic Ajax Page</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/default.css">
+	<!-- jQuery library -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Angular.js library -->
+	
+	<script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/modules/exporting.js"></script>
+	<script type="text/javascript" src="js/modules/data.js"></script>
+	<script src="js/activate.js"></script>
+	<script src="js/map_script.js"></script>
+	
+	<!-- MapBox.js library & CSS -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+</head>
+
+
+<body>
+	<div id='wrapper'>
+		<div id="header">
+	        <div class="navbar navbar-default">
+	        	<div class="navbar-header">
+	        	<a class="navbar-brand" href="index.html">Home</a>
+				</div>
+					<div class="navbar-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li><a id="weather" href="#">Weather-xml</a></li>
+							<li><a href="#">Concerts</a></li>
+							<li><a id="mapbox" href="#">MapBox</a></li>
+						</ul>
+		        	</div>
+			</div>
+		</div>
+		<main>
+			<div class="panel panel-default data-content">
+				<div class="panel-heading">
+					<h3 class="panel-title">Welcome</h3>
+				</div>		
+					<div class="panel-body" id="container">	
+					</div>
+			</div>
+		</main>
+	</div> 
+	
+	
+</body>
+</html>
